@@ -1,24 +1,21 @@
-# README
+#devcamppotfoilo application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> this is a ruby on rails 5 application that allows users to create their own portfolios
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+- real time chat engine for comments
+- blog 
+- porfolio
+- drag and drop interface
+### Code example 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+def my_great_method
+  puts "here it is"
+ end
+ ```
+ 
+ ```javascript
+ alert('Hi there');
+```
