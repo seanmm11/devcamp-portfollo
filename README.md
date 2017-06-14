@@ -1,4 +1,4 @@
-#devcamppotfoilo application
+#Devcamp Portfolio Application
 
 > this is a ruby on rails 5 application that allows users to create their own portfolios
 
