@@ -57,4 +57,4 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap'
 
-gem 'mchugh_view_tool', git: 'https://github.com/seanmm11/mchugh_view_tool'
+gem 'mchugh_view_tool', '~> 0.1.0'

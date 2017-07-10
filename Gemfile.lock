@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/seanmm11/mchugh_view_tool
-  revision: 5f5244c329f1d741a2df1e3369ee3f728766d991
-  specs:
-    mchugh_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -91,6 +85,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
+    mchugh_view_tool (0.1.0)
     method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -197,7 +192,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
-  mchugh_view_tool!
+  mchugh_view_tool (~> 0.1.0)
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)
