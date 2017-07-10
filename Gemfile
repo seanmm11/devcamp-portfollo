@@ -58,3 +58,4 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap'
 
 gem 'mchugh_view_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.7', '>= 1.7.5'
