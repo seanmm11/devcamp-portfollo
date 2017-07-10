@@ -15,4 +15,8 @@ end
      content_tag(:p, greeting, class: "source-greeting")
   end
  end
+ 
+ def copyright_generator
+   MchughViewTool::Renderer.copyright 'Sean McHugh', 'All rights reserved'
+ end
 end
