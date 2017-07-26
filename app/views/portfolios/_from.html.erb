@@ -37,12 +37,13 @@
   <div class="col-md-12">
     <h2>Technolgies Used:</h2>
     <div>
-     <%= f.fields_for :technologies do |technologies_form| %>
-      <div>
-        <%= technologies_form.label :name %>
-        <%= technologies_form.text_field :name, class: 'form-control' %>
-      </div>
+     <%= f.fields_for :technologies do |technology_form| %>
+       <%= render 'technology_fields', f: technology_form %>
       <% end %>
+      
+      <div>
+        <%= link_to_add_association 'Add Technology', f, :technologies %>
+      </div>
     </div>
   
     <div class="form-group">
